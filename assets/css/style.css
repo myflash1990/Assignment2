@@ -154,6 +154,7 @@ main section h2 {
 
 .hoverme li {
   padding: 10px;
+  margin-left: 23px;
 }
 
 .section1 img {
@@ -193,6 +194,7 @@ main section h2 {
 
 aside {
   display: flex;
+  position: relative;
   max-width: 1200px;
 }
 
@@ -202,6 +204,30 @@ aside {
   margin: 5px;
   flex-wrap: wrap;
   object-fit: cover;
+}
+
+.img1 {
+  position: absolute;
+  margin-top: -366px;
+  margin-left: 162px;
+  width: 1000px;
+  max-width: 1400px;
+  ;
+}
+
+.img2 {
+  position: absolute;
+  margin-top: 20px;
+}
+
+.img3 {
+  position: absolute;
+  margin-top: 30px;
+}
+
+.img4 {
+  position: absolute;
+  margin-top: 22px;
 }
 
 p {
