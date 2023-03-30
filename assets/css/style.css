@@ -1,0 +1,235 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  /* background: linear-gradient(to right, blue, black) */
+}
+
+/* margin/line for aside */
+
+main div {
+  border-left: 3.5px solid #0f385f;
+  height: 118px;
+  position: absolute;
+  left: 10%;
+  margin-left: -4px;
+  top: 33px;
+  margin-top: 270px;
+}
+
+.box {
+  margin-top: 527px;
+}
+
+/* main header backgorund box */
+
+header {
+  padding: 2px;
+  width: 1447px;
+  background: linear-gradient(to left, #0f385f, black)
+}
+
+.work .box {
+  color: #0f385f;
+  padding: 29px;
+}
+
+/* Custom font/heading name */
+
+header h1 {
+  color: #0f385f;
+  text-align: right;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 1.55px;
+  line-height: 10px;
+}
+
+/* Custom font ABOUT ME */
+
+/* 
+main section h2 {
+  font-size: 50px;
+  font-weight: 15000;
+  color: #0f385f;
+  display: flex;
+  position: relative;
+  /* justify-content: flex-start; */
+
+/* flex-wrap: wrap; */
+
+/* } */
+
+.aboutme {
+  display: flex;
+  height: 30rem;
+}
+
+.title {
+  border-right: 1px #0f385f;
+  margin-left: -681px;
+  margin-top: 15px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 10rem; */
+  width: 0%;
+}
+
+.work {
+  display: flex;
+}
+
+.project {
+  flex: 1 0 50%;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 2rem;
+  width: 75%;
+}
+
+/* header name background container/rectangle box */
+
+.dcolor {
+  height: 12px;
+  width: 280px;
+  position: relative;
+  background-color: rgb(20, 121, 112);
+  padding: 21px;
+  margin-top: 9px;
+  margin-bottom: -37px;
+}
+
+/* My name/text in title */
+
+#secLink {
+  display: flex;
+  color: black;
+  list-style: none;
+  justify-content: flex-end;
+  gap: 1em;
+  margin: 5px;
+}
+
+/* Nav list */
+
+#secLink a {
+  color: rgb(45, 143, 135);
+}
+
+#secLink li:hover {
+  background-color: yellow
+}
+
+/* top image container of laptopn and desk*/
+
+.section1 {
+  /* display: flex; */
+  /* background-color: #d8a47f; */
+  height: 154px;
+  /* max-width: 1300px; */
+  width: 1290px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hoverme li {
+  padding: 10px;
+}
+
+.section1 img {
+  /* background-size: cover; */
+  width: 1489px;
+  height: 185px;
+  /* object-fit: cover; */
+  margin-left: -60px;
+  margin-top: -20px;
+  border-color: #0f385f;
+  border-style: solid;
+  /* object-position: bottom; */
+}
+
+.section2 {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section2 img {
+  position: fixed;
+  margin-left: 1260px;
+  margin-top: -120px;
+  height: 154px;
+  bottom: 0;
+}
+
+.header-text h1 {
+  color: white;
+  position: relative;
+  text-align: left;
+  background: #13293d;
+  display: inline;
+}
+
+nav p {
+  padding: 14px 20px;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  display: flex;
+  border: 5px solid black;
+}
+
+section {
+  flex: 70%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+footer {
+  padding: 20px;
+  width: 1401px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+
+footer li {
+  list-style: none;
+}
+
+/* @media screen and (max-width: 992px) {
+  header {
+    background: #772014;
+  }
+}
+
+/* Large smartphones - navbar changes color */
+
+/* 
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: #bb8588;
+  }
+} */
+
+/* Small smartphones - image placeholders change color */
+
+/* @media screen and (max-width: 576px) {
+  .sample-img {
+    background-color: #8ac4ff;
+  }
+} */
