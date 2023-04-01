@@ -3,17 +3,6 @@
   margin: 0px;
 }
 
-.break {
-  margin: 20px;
-  padding: 20px;
-}
-
-/* margin/line for aside */
-
-.box {
-  margin-top: 527px;
-}
-
 /* main header backgorund box */
 
 header {
@@ -66,6 +55,13 @@ main section h2 {
 
 .project {
   flex: 1 0 50%;
+}
+
+.my-work h1 {
+  padding: 1rem;
+  text-align: right;
+  border-right: 5px solid black;
+  width: 25%;
 }
 
 /* header name background container/rectangle box */
