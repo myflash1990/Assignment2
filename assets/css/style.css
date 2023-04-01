@@ -11,11 +11,6 @@ header {
   background: linear-gradient(to left, #0f385f, black)
 }
 
-.work .box {
-  color: #0f385f;
-  padding: 29px;
-}
-
 /* Custom font/heading name */
 
 header h1 {
@@ -25,6 +20,23 @@ header h1 {
   font-weight: 100;
   letter-spacing: 1.55px;
   line-height: 10px;
+}
+
+.container h2 {
+  padding: 4rem;
+  text-align: right;
+  border-right: 5px solid #0f385f;
+  width: 2px;
+}
+
+.proj {
+  flex: 1 0 100%;
+}
+
+.proj1 {
+  padding: 1rem;
+  min-width: 200px;
+  flex: 1 0 50%;
 }
 
 /* Custom font ABOUT ME */
@@ -54,7 +66,15 @@ main section h2 {
 }
 
 .project {
-  flex: 1 0 50%;
+  padding: 1rem;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .my-work h1 {
@@ -154,54 +174,6 @@ main section h2 {
   width: 75%;
   display: flex;
   flex-wrap: wrap;
-}
-
-.p {
-  border: 1px solid gray;
-  padding: 1rem;
-  min-width: 200px;
-  flex: 1 0 50%;
-}
-
-.p1 {
-  flex: 1 0 100%;
-}
-
-.img {
-  width: 300px;
-  height: 200px;
-  margin: 5px;
-  flex-wrap: wrap;
-  object-fit: cover;
-}
-
-.img1 {
-  position: absolute;
-  margin-top: -366px;
-  margin-left: 162px;
-  width: 1000px;
-  max-width: 1400px;
-  ;
-}
-
-.img2 {
-  position: absolute;
-  margin-top: 20px;
-}
-
-.img3 {
-  position: absolute;
-  margin-top: 30px;
-}
-
-.img4 {
-  position: absolute;
-  margin-top: 22px;
-}
-
-p {
-  margin-bottom: 32px;
-  line-height: 1em;
 }
 
 main {
