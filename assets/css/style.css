@@ -3,29 +3,12 @@
   margin: 0px;
 }
 
-body {
-  font-family: sans-serif;
-  margin: 0px;
-  padding: 0px;
-  /* background: linear-gradient(to right, blue, black) */
-}
-
 .break {
   margin: 20px;
   padding: 20px;
 }
 
 /* margin/line for aside */
-
-main div {
-  border-left: 3.5px solid #0f385f;
-  /* height: 118px; */
-  position: absolute;
-  left: 10%;
-  margin-left: -4px;
-  top: 32px;
-  margin-top: 270px;
-}
 
 .box {
   margin-top: 527px;
@@ -70,11 +53,6 @@ main section h2 {
 
 /* } */
 
-.aboutme {
-  display: flex;
-  height: 30rem;
-}
-
 .title {
   border-right: 1px #0f385f;
   margin-left: -681px;
@@ -86,25 +64,8 @@ main section h2 {
   width: 0%;
 }
 
-.work {
-  display: flex;
-}
-
-.work div {
-  position: relative;
-}
-
 .project {
   flex: 1 0 50%;
-}
-
-.content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  /* align-items: center; */
-  padding: 2rem;
-  width: 75%;
 }
 
 /* header name background container/rectangle box */
@@ -154,6 +115,7 @@ main section h2 {
 
 .hoverme li {
   padding: 10px;
+  margin-left: 23px;
 }
 
 .section1 img {
@@ -191,9 +153,22 @@ main section h2 {
   display: inline;
 }
 
-aside {
+.container {
+  padding: 1rem;
+  width: 75%;
   display: flex;
-  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.p {
+  border: 1px solid gray;
+  padding: 1rem;
+  min-width: 200px;
+  flex: 1 0 50%;
+}
+
+.p1 {
+  flex: 1 0 100%;
 }
 
 .img {
@@ -202,6 +177,30 @@ aside {
   margin: 5px;
   flex-wrap: wrap;
   object-fit: cover;
+}
+
+.img1 {
+  position: absolute;
+  margin-top: -366px;
+  margin-left: 162px;
+  width: 1000px;
+  max-width: 1400px;
+  ;
+}
+
+.img2 {
+  position: absolute;
+  margin-top: 20px;
+}
+
+.img3 {
+  position: absolute;
+  margin-top: 30px;
+}
+
+.img4 {
+  position: absolute;
+  margin-top: 22px;
 }
 
 p {
