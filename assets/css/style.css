@@ -31,6 +31,16 @@ section h2 {
   text-align: right;
   border-right: 5px solid #0f385f;
   width: 2px;
+  color: #0f385f;
+}
+
+@media screen and (max-width:768px) {
+  section h2 {
+    width: 100%;
+    border-right: unset;
+    border-bottom: 5px solid blue;
+    text-align: center;
+  }
 }
 
 .proj {
@@ -43,21 +53,6 @@ section h2 {
   min-width: 200px;
   flex: 1 0 34%;
 }
-
-/* Custom font ABOUT ME */
-
-/* 
-main section h2 {
-  font-size: 50px;
-  font-weight: 15000;
-  color: #0f385f;
-  display: flex;
-  position: relative;
-  /* justify-content: flex-start; */
-
-/* flex-wrap: wrap; */
-
-/* } */
 
 .title {
   border-right: 1px #0f385f;
