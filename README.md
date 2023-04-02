@@ -22,4 +22,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 ## preview of my webpage 
-
+!["my webpage"](webpage.png 'preview')
