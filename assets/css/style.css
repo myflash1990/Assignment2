@@ -34,10 +34,9 @@ header h1 {
 }
 
 .h2 {
-  padding: 4rem;
+  padding: 26px;
   text-align: right;
   border-right: 5px solid #0f385f;
-  width: 2px;
   color: #0f385f;
 }
 
@@ -48,9 +47,9 @@ header h1 {
   flex-wrap: wrap;
 }
 
-.proj {
+section div a img {
   flex: 1 0 100%;
-  height: 317px;
+  height: 435px;
 }
 
 .proj1 {
